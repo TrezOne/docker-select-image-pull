@@ -1,6 +1,10 @@
 name: "Pre-pull Docker Compose service images"
 description: "Prepares Docker Compose services by pulling images in parallel before dry-run"
-author: "Your Name <you@example.com>"
+author: "Trez.One <charish.patel@trez.wtf>"
+
+branding:
+  icon: "arrow-down"
+  color: "blue"
 
 inputs:
   services:
