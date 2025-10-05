@@ -10,10 +10,12 @@ inputs:
   services:
     description: "Space-separated list of Docker Compose services"
     required: true
+
   compose_profile:
     description: "Docker Compose profile to use (optional)"
     required: false
     default: ""
+
   env_file:
     description: "Path to .env file (optional)"
     required: false
